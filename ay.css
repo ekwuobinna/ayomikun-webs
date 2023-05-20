@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"BeautifulPeople";
+}
+body{
+    background-color: #151c24;
+    color: rgb(255, 255, 255);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:transparent;
+    padding: 20px,10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+.logo{
+    margin-left: 5% ;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+}
+.nav-bar a{
+    font-size: 18px;
+    color: white;
+    margin-right: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.6s;
+}
+.nav-bar a:hover,
+.nav-bar a.active{
+    color: palevioletred;
+}
+@font-face{
+    font-family: "BeautifulPeople";
+    src: url("fonts/BeautifulPeoplePersonalUse-dE0g.ttf") format("truetype");
+}
+.ayomikun{
+    font-size: 55px;
+    text-align: center;
+    font-weight: bolder;
+    color: palevioletred;
+    font-family: "BeautifulPeople";
+    margin-top:20px;
+    margin-right: 200px;
+    text-shadow: 2px 2px 4px white;
+}
+.Home{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    padding: 0 10%;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 26px;;
+    font-weight:bolder;
+}
+.home-content h3{
+    font-size: X-large;
+    color: palevioletred;
+    font-weight: bolder;
+}
+.home-content p{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.name{
+    font-family: “Comic Sans MS”, “Comic Sans”, monospace;
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    font-size: larger;
+    transition: color 0.5s,text-shadow 0.5s;
+}
+.AYOMIKUN-button{
+  color:azure;
+  background-color: pink;
+  text-decoration: none;
+  font-weight: bolder;
+  border:none;
+  border-radius:10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor:pointer;
+  margin-right: 10;
+  transition: background-color 0.5s,transform 0.6s,box-shadow 0.2s;
+}
+.AYOMIKUN-button:hover{
+    background-color: rgb(255, 209, 217);
+    transform: skew(20deg, 10deg);
+}
+.AYOMIKUN-button:active{
+    background-color: rgb(255, 226, 231); 
+    box-shadow: 0.2px 0.1px 20px -12px white;  
+}
+.STELLA-button{
+    background-color:azure;
+    text-decoration: none;
+    color:pink;
+    border-color:pink;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    cursor:pointer;
+    margin-right: 10;
+    transition:color 1s,background-color 0.5s,box-shadow 0.2s,transform 0.6s;
+}
+.STELLA-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: pink;
+    border-color: azure;
+    transform: skew(-20deg, -10deg);
+}
+.STELLA-button:active{
+    background-color: rgb(255, 223, 230);
+    box-shadow: 0.2px 0.1px 20px -12px white;
+}
+.PICTURE-button {
+    color:rgb(21, 28, 36) ;
+    border:none;
+    background-color: pink;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: color 0.5s, box-shadow 0.5s,transform 0.6s,background-color 0.5s;
+   
+}
+.PICTURE-button:hover{
+color:palevioletred;
+transform: skew(20deg, 10deg);
+background-color: rgb(255, 209, 217);
+}
+.PICTURE-buttona:active{
+    background-color: rgb(255, 225, 230);
+    box-shadow: 0.2px 0.1px 20px -12px white;
+}
+.ima{
+    border-radius:50px;
+}
